@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./CSS/slick.css">
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>CoDe</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="header__inner">
+          <div class="header__logo">
+            <span class="logo-blue">C</span>o<span class="logo-orange">D</span>e
+          </div>
+          <nav class="menu">
+            <ul class="menu__item ">
+             <li class="menu__close">
+             <button class="menu__close-btn">
+                <img src="./images/close.svg" alt="close image">
+              </button> 
+            </li>
+            <li class="menu__item-list">
+              <a href="#" class="menu__item-link">Чему вы научитесь</a>
+            </li>
+            <li class="menu__item-list">
+              <a href="#" class="menu__item-link">Процесс обучения</a>
+            </li>
+            <li class="menu__item-list">
+              <a href="#" class="menu__item-link">Стоимость</a>
+            </li>
+            <li class=menu__item-list">
+              <a href="#" class="menu__item-link">Контакты</a>
+            </li>
+          </ul>
+          </nav>
+          <a class="header__phone" href="tel:74993489396">+7 (499) 348 93 96</a>
+          <div class="menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      </header>
+      <section class="slider">
+        <div class="slider__gallery">
+        <div class="slider__item slider__item-1">
+        <div class="slider__inner">
+          <div class="slider__info">
+          <h1 class="slider__title">Школа <span style="color:#F15525"style="font-weight: 700">{</span> <span style="font-weight: 700", style="font-size: 46px">программирования</span><span style="color:#F15525">}</span> для тех, кому нужны реальные навыки,
+            а не просто сертификат</h1>
+          <p class="slider__text">Закажите звонок, и наш специалист свяжется с вами в ближайшее время</p>
+          <a href="#" class="slider__btn" id="popup-open"><span>Заказать звонок</span> <img  class="slider__arrow-up" src="./images/arrow-up.svg" alt="arrow image"></a>
+          </div>
+          <div class="slider__img">
+            <img src="./images/school1.png" alt="" class="img">
+          </div>
+         </div>
+        </div>
+        <div class="slider__item slider__item-2">
+          <div class="slider__inner">
+            <div class="slider__info">
+            <h1 class="slider__title">Обучение <br>
+              через практику</h1>
+            <p class="slider__text">Всё, что вы узнали, вы тут же начинаете применять на практике. Вы сразу видите результаты своего труда.</p>
+            <a href="#" class="slider__btn" id="popup-open1">Заказать звонок <img  class="slider__arrow-up" src="./images/arrow-up.svg" alt="arrow image"></a>
+            </div>
+            <div class="slider__img">
+              <img src="./images/school2.png" alt="" class="img">
+            </div>
+           </div>
+          </div>
+          <div class="slider__item slider__item-3">
+            <div class="slider__inner">
+              <div class="slider__info">
+              <h1 class="slider__title">Весь материал разбит на небольшие уроки</h1>
+              <p class="slider__text">Теория и практика подаются маленькими порциями. Так вам будет легче усваивать новые знания.</p>
+              <a href="#" class="slider__btn" id="popup-open2"
+              >Заказать звонок <img  class="slider__arrow-up" src="./images/arrow-up.svg" alt=" arrow image"></a>
+              </div>
+              <div class="slider__img">
+                <img src="./images/school3.png" alt="" class="img">
+              </div>
+             </div>
+            </div>
+      </div>
+       <div class="popup" id="popup">
+               <div class="popup__container">
+                <div class="close" id="close">&#10006</div>
+                  <form action="" class="menu__login">
+                     <p class="popup__login-text">Заказать звонок</p>
+                     <span class="popup__span">Имя</span>
+                     <input type="text" class="popup__login-input popup__login" placeholder="Ваше имя">
+                     <span class="popup__span">Телефон</span>
+                     <input class="popup__login-input popup__password" type="tel"
+                        placeholder="+7 ХХХ - ХХХ - ХХ -ХХ">
+                        <span class="popup__span">Email</span>
+                        <input class="popup__login-input popup__email" type="email"
+                        placeholder="mail@site.com">  
+                        <span class="popup__span">Сообщение
+                        </span>
+                        <textarea class="popup__login-textarea" placeholder="Ваше сообщение ..."></textarea>
+                        <p class="popup__text">
+                          Нажимая кнопку “Отправить”,  соглашаюсь с <span style="color:#F15525">политикой конфиденциальности</span>
+                        </p>
+                        <a href="#" class="slider__btn-1">Отправить </a>
+                  </form>
+               </div>
+         </div>
+      </section>
+      <section class="study">
+        <h2 class="study__title">
+          Обучение в CoDe – это удобно и результативно
+        </h2>
+        <div class="study__inner">
+          <div class="study__card">
+            <img src="./images/practise.svg" alt="practise image" />
+            <h4 class="study__card-title">Огромное количество практики</h4>
+            <p class="study__card-text">
+              Более 500 самостоятельных заданий и 20 полноценных больших
+              проектов
+            </p>
+          </div>
+          <div class="study__card">
+            <img src="./images/method.svg" alt="method image" />
+            <h4 class="study__card-title">Современные методики обучения</h4>
+            <p class="study__card-text">
+              Спиральное обучение: погружаемся в материал постепенно, виток за
+              витком
+            </p>
+          </div>
+          <div class="study__card">
+            <img src="./images/monitor.svg" alt="monitor image" />
+            <h4 class="study__card-title">Простое и понятное изложение</h4>
+            <p class="study__card-text">
+              Вместо заумных терминов – примеры из реального мира
+            </p>
+          </div>
+          <div class="study__card">
+            <img src="./images/grafic.svg" alt="grafic image" />
+            <h4 class="study__card-title">Гибкий график занятий</h4>
+            <p class="study__card-text">
+              Учитесь в любое время в удобном для вас темпе
+            </p>
+          </div>
+          <div class="study__card study__card5">
+            <img src="./images/review.svg" alt="review image" />
+            <h4 class="study__card-title study__card-title5">
+              Прямая связь с опытными программистами
+            </h4>
+            <p class="study__card-text">
+              Задавайте вопросы и отправляйте свой код на проверку
+            </p>
+          </div>
+          <div class="study__card">
+            <img src="./images/money.svg" alt="money image" />
+            <h4 class="study__card-title">Оплата небольшими частями</h4>
+            <p class="study__card-text">
+              Платите только за тот материал, который сейчас изучаете, а не за
+              весь курс сразу
+            </p>
+          </div>
+          <div class="study__card full-row">
+            <img src="./images/cart.svg" alt="cart image" />
+            <h4 class="study__card-title">Быстрый и легкий возврат</h4>
+            <p class="study__card-text">
+              Если передумаете учиться – вернем деньги за 3 рабочих дня
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="support">
+        <div class="support__inner">
+          <div class="support__img">
+            <img src="./images/support.png" alt="support image" />
+          </div>
+          <div class="support__card">
+            <h3 class="support__card-title title">Помощь и поддержка</h3>
+            <p class="support__card-text">
+              Если в процессе обучения возникнут сложности, вы всегда сможете
+              задать вопрос своему наставнику.
+            </p>
+            <p class="support__card-text text">
+              Раз в несколько уроков вы будете получать большое задание, которое
+              нужно будет сдавать на проверку код-ревьюеру. Он внимательно
+              изучит ваш код, найдет ошибки и поможет вам стать лучше.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="methodology">
+        <div class="methodology__inner">
+          <div class="methodology__card">
+            <h3 class="methodology__card-title title">Методика обучения</h3>
+            <p class="methodology__card-text">
+              Весь учебный материал структурирован по принципу «спирального
+              обучения». Сначала вы получаете базовые знания, а затем на каждом
+              витке спирали углубляетесь в изученные темы, доводя их понимание
+              до совершенства. Такой подход упрощает обучение и гарантирует, что
+              вы не пропустите ничего важного.
+            </p>
+          </div>
+          <div class="methodology__img">
+            <img src="./images/mens.png" alt="methodology image" />
+          </div>
+        </div>
+      </section>
+      <section class="gallery">
+        <div class="gallery__items">
+          <div class="big"><img src="./images/gallary-big.png" alt="" class="gallery__img-big"></div>
+          <div class="small"><img src="./images/gallary-small1.png" alt="" class="gallery__img-small"></div>
+          <div class="small"><img src="./images/gallary-small2.png" alt="" class="gallery__img-small"></div>
+          <div class="small"><img src="./images/gallary-small3.png" alt="" class="gallery__img-small"></div>
+          <div class="small"><img src="./images/gallary-small4.png" alt="" class="gallery__img-small"></div>
+        </div>
+      </section>
+      <section class="map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2286.772892478505!2d82.92253990189174!3d55.02967240907963!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x42dfe5daf13ba691%3A0x4c6f3c0f84136261!2z0JTQtdC_0YPRgtCw0YLRgdC60LDRjyDRg9C7LiwgNDYsINCd0L7QstC-0YHQuNCx0LjRgNGB0LosINCd0L7QstC-0YHQuNCx0LjRgNGB0LrQsNGPINC-0LHQuy4sIDYzMDA5OQ!5e0!3m2!1sru!2sru!4v1716613139627!5m2!1sru!2sru"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+      </section>
+      <footer class="footer">
+        <div class="footer__top">
+          <div class="footer__media-top">
+            <ul class="footer__media-logo">
+              <li class="footer__media-logo-li">
+                <span class="logo-blue">C</span>o<span class="logo-orange"
+                  >D</span
+                >e
+              </li>
+              <li class="footer__media-list">Школа программирования</li>
+            </ul>
+            <ul class="footer__media-social">
+              <li class="footer__media-items">
+                <a href="#" class="footer__media-link">
+                  <img src="/images/insta.svg" alt="insta image" />
+                </a>
+              </li>
+              <li class="footer__media-items">
+                <a href="#" class="footer__media-link">
+                  <img src="/images/vk.svg" alt="vkontakte image" />
+                </a>
+              </li>
+              <li class="footer__media-items">
+                <a href="#" class="footer__media-link">
+                  <img src="/images/facebook.svg" alt="facebook image" />
+                </a>
+              </li>
+              <li class="footer__media-items">
+                <a href="#" class="footer__media-link">
+                  <img src="/images/youtube.svg" alt="youtube image" />
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__top-info">
+            <ul class="footer__info-list">
+              <li class="footer__info-item">
+                <a href="#" class="footer__info-link">Чему вы научитесь</a>
+              </li>
+              <li class="footer__info-item">
+                <a class="footer__info-link" href="#">Процесс обучения</a>
+              </li>
+              <li class="footer__info-item">
+                <a class="footer__info-link" href="#">Стоимость</a>
+              </li>
+              <li class="footer__info-item">
+                <a class="footer__info-link" href="#">Контакты</a>
+              </li>
+              <li class="footer__info-item">
+                <a class="footer__info-link" href="#">Регистрация</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__top-contacts">
+            <a class="footer__contacts-link" href="tel:+7(999)9999999"
+              >+7 (999) 999 99 99</a
+            >
+            <a class="footer__contacts-mail" href="mailto:info@code.ru"
+              >info@code.ru</a
+            >
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <a class="footer__bottom-link" href="#"
+            >© 2023 — Все права защищены</a
+          >
+          <a class="footer__bottom-link" href="#"
+            >Пользовательское соглашение</a
+          >
+          <a class="footer__bottom-link" href="#"
+            >Политика конфиденциальности</a
+          >
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./JS/slick.min.js"></script>
+    <script src="./JS/script.js"></script>
+  </body>
+</html>
